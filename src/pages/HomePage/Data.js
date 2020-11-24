@@ -8,5 +8,8 @@ export const homeObjOne = {
     topLine: 'Development Agency',
     headline: 'Lead Generation Specialist for Online development',
     description: 'We help bussiness owners increase their revenue. Our team of unique specialist can help you acheive your bussiness goals.',
-    buttonLabel: 'Get Started'
+    buttonLabel: 'Get Started',
+    img: require('../../images/header.svg').default,
+    alt: '',
+    start: ''
 }
