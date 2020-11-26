@@ -1,17 +1,25 @@
 import React from 'react';
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa'
 import { Button } from '../../globalStyles';
-import { 
-    FooterContainer, 
-    FooterSubHeading, 
-    FooterSubscription, 
-    FooterSubText, 
-    Form, 
+import {
+    FooterContainer,
+    FooterSubHeading,
+    FooterSubscription,
+    FooterSubText,
+    Form,
     FormInput,
     FooterLinksContainer,
     FooterLinksWrapper,
     FooterLinksItems,
     FooterLinkTitle,
-    FooterLink
+    FooterLink,
+    SocialMedia,
+    SocialMediaWrap,
+    SocialLogo,
+    SocialIcon,
+    WebSiteRights,
+    SocialIcons,
+    SocialIconLink
 } from './Footer.elements';
 
 const Footer = () => {
@@ -26,7 +34,7 @@ const Footer = () => {
                 </FooterSubText>
                 <Form>
                     <FormInput name='email' type='email' placeholder='Your Email' />
-                        <Button>Subscribe</Button>
+                    <Button>Subscribe</Button>
                 </Form>
             </FooterSubscription>
             <FooterLinksContainer>
@@ -47,6 +55,8 @@ const Footer = () => {
                         <FooterLink to='/'>Investors</FooterLink>
                         <FooterLink to='/'>Terms of Services</FooterLink>
                     </FooterLinksItems>
+                </FooterLinksWrapper>
+                <FooterLinksWrapper>
                     <FooterLinksItems>
                         <FooterLinkTitle>Videos</FooterLinkTitle>
                         <FooterLink to='/sign-up'>How it work</FooterLink>
@@ -65,6 +75,20 @@ const Footer = () => {
                     </FooterLinksItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>
+            <SocialMedia>
+                <SocialMediaWrap>
+                    <SocialLogo to='/'>
+                        <SocialIcon /> SEVEN
+                    </SocialLogo>
+                    <WebSiteRights>SEVEN © 2020</WebSiteRights>
+                    <SocialIcons>
+                        <SocialIconLink href={'https://www.facebook.com/steveen.echeverri'} target="_blank" arial-label="Facebook"><FaFacebook /></SocialIconLink>
+                        <SocialIconLink href={'https://www.instagram.com/styvensoft/'} target="_blank" arial-label="Instagram"><FaInstagram /></SocialIconLink>
+                        <SocialIconLink href={'https://twitter.com/styvensoft'} target="_blank" arial-label="Twitter"><FaTwitter /></SocialIconLink>
+                        <SocialIconLink href={'https://co.linkedin.com/in/steveen-echeverri'} target="_blank" arial-label="Linkedin"><FaLinkedin /></SocialIconLink>
+                    </SocialIcons>
+                </SocialMediaWrap>
+            </SocialMedia>
         </FooterContainer>
     )
 }
