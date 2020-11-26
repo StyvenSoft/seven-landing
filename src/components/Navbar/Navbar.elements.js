@@ -27,6 +27,7 @@ ${Container}
 export const NavLogo = styled(Link)`
 color: #fff;
 justify-self: start;
+align-items: center;
 cursor: pointer;
 text-decoration: none;
 font-size: 2rem;

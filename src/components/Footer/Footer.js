@@ -41,7 +41,7 @@ const Footer = () => {
                 <FooterLinksWrapper>
                     <FooterLinksItems>
                         <FooterLinkTitle>About us</FooterLinkTitle>
-                        <FooterLink to='/sign-up'>How it work</FooterLink>
+                        <FooterLink to='/'>How it work</FooterLink>
                         <FooterLink to='/'>Testimonials</FooterLink>
                         <FooterLink to='/'>Careers</FooterLink>
                         <FooterLink to='/'>Investors</FooterLink>
@@ -49,29 +49,26 @@ const Footer = () => {
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>Contact us</FooterLinkTitle>
-                        <FooterLink to='/sign-up'>How it work</FooterLink>
-                        <FooterLink to='/'>Testimonials</FooterLink>
-                        <FooterLink to='/'>Careers</FooterLink>
-                        <FooterLink to='/'>Investors</FooterLink>
-                        <FooterLink to='/'>Terms of Services</FooterLink>
+                        <FooterLink to='/'>Contact</FooterLink>
+                        <FooterLink to='/'>Support</FooterLink>
+                        <FooterLink to='/'>Destinations</FooterLink>
+                        <FooterLink to='/'>Sponsorships</FooterLink>
                     </FooterLinksItems>
                 </FooterLinksWrapper>
                 <FooterLinksWrapper>
                     <FooterLinksItems>
                         <FooterLinkTitle>Videos</FooterLinkTitle>
-                        <FooterLink to='/sign-up'>How it work</FooterLink>
-                        <FooterLink to='/'>Testimonials</FooterLink>
-                        <FooterLink to='/'>Careers</FooterLink>
-                        <FooterLink to='/'>Investors</FooterLink>
-                        <FooterLink to='/'>Terms of Services</FooterLink>
+                        <FooterLink to='/'>Submit video</FooterLink>
+                        <FooterLink to='/'>Ambassadors</FooterLink>
+                        <FooterLink to='/'>Agency</FooterLink>
+                        <FooterLink to='/'>Influencers</FooterLink>
                     </FooterLinksItems>
                     <FooterLinksItems>
                         <FooterLinkTitle>Social Media</FooterLinkTitle>
-                        <FooterLink to='/sign-up'>How it work</FooterLink>
-                        <FooterLink to='/'>Testimonials</FooterLink>
-                        <FooterLink to='/'>Careers</FooterLink>
-                        <FooterLink to='/'>Investors</FooterLink>
-                        <FooterLink to='/'>Terms of Services</FooterLink>
+                        <FooterLink to='/'>Instagram</FooterLink>
+                        <FooterLink to='/'>Youtube</FooterLink>
+                        <FooterLink to='/'>Twitter</FooterLink>
+                        <FooterLink to='/'>Whatsapp</FooterLink>
                     </FooterLinksItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>

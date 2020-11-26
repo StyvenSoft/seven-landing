@@ -29,3 +29,19 @@ export const homeObjTwo = {
     alt: 'Image desktop computer',
     start: 'true'
 }
+
+export const homeObjThree= {
+    lightBg: false,
+    imgStart: '',
+    lightTopLine: true,
+    lightText: true,
+    lightTextDesc: true,
+    primary: true,
+    topLine: 'Instant Setup',
+    headline: 'Extremely quick onboarding process',
+    description: "Once you've joined, our team of specialist will reach out to you and get you set up in minutes.",
+    buttonLabel: 'Learn More',
+    img: require('../../images/Segmentation.svg').default,
+    alt: 'Image development team',
+    start: ''
+}
