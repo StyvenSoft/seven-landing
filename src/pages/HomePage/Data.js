@@ -30,7 +30,7 @@ export const homeObjTwo = {
     start: 'true'
 }
 
-export const homeObjThree= {
+export const homeObjThree = {
     lightBg: false,
     imgStart: '',
     lightTopLine: true,
@@ -45,3 +45,17 @@ export const homeObjThree= {
     alt: 'Image development team',
     start: ''
 }
+
+export const homeObjFour = {
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Data Analytics',
+    headline: 'Every transaction is stored on our secure cloud database',
+    description:
+        'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
+    buttonLabel: 'Sign Up Now',
+    imgStart: 'start',
+    img: require('../../images/Data_points.svg').default,
+    alt: 'Data analytics'
+};
